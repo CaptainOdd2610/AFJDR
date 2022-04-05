@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Association Française de Jeux de Rôles</title>
+		<link rel="stylesheet" type="text/css" href="CSS/Style-General.css">
+		<link rel="stylesheet" type="text/css" href="CSS/Style-Stats-Perso.css">
+		<link rel="stylesheet" type="text/css" href="CSS/Style-Stats-Perso-Responsive.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header>
+			<div class="banniere">
+				<img src="Images/fondbanniere.png" class="fondbanniere" alt="Paysage Pixel">
+				<div class="previous dropdown">
+					<button class="btn btn-link" type="button" onclick = "history.back()">
+						<img src="Images/iconp.svg" class="iconp" alt="Bouton précédent">
+					</button>
+				</div> 
+				<div class=" menu dropdown">
+					<button class="btn btn-link" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2 iconmenu" 
+							width="60" 
+							height="60" 
+							viewBox="0 0 24 24" 
+							stroke-width="3" 
+							stroke="#ffffff" 
+							fill="none" 
+							stroke-linecap="round" 
+							stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+							<line x1="4" y1="6" x2="20" y2="6" />
+							<line x1="4" y1="12" x2="20" y2="12" />
+							<line x1="4" y1="18" x2="20" y2="18" />
+						  </svg>
+					</button>
+					<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+					  <li><a class="dropdown-item" href="index.html">Accueil</a></li>
+					  <li><a class="dropdown-item" href="Evenement.html">Evenement</a></li>
+					  <li><a class="dropdown-item active" href="Fiches Personnages.html">Fiche Personnage</a></li>
+					  <li><a class="dropdown-item" href="Nous contacter.html">Nous contacter</a></li>
+					</ul>
+				</div>
+				<div id="logocenter">
+					<a href="index.html"><button><img src="Images/logo.png" class="logo" alt="Logo"></button></a>
+				</div>
+				<h1>Association Française<br>de Jeux de Rôles</h1>
+			</div>
+		</header>
+		<main>
+			<div id="cadre">
+				<div class="article">
+					<div class="historia">
+						<button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+							<h2 id="SD">Saloundra Dumant</h2>
+						</button>
+					</div>
+					<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+						  <div class="modal-content">
+							<div class="modal-header">
+							  <h5 class="modal-title" id="exampleModalLabel">Saloundra Dumant</h5>
+							  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="modal-body">																									
+								<p class="blackpolice">Saloundra Dumant est certainement la plus vieille habitante 
+								d’Untergard et elle y fait office de guérisseuse et de soldat . 
+								Ce que ses concitoyens ignorent, et que Saloundra a pris soin 
+								de dissimuler, c’est qu’elle est une sorcière. Elle paraît avoir 
+								une vingtaine d’années, mais elle en a en fait beaucoup 
+								plus que cela. De fait,nul en Untergard ne peut se souvenir 
+								d’une époque où Saloundra  n’était pas déjà présente. 
+								Elle apporte ce qui manque de souplesse et de diplomatie 
+								à la gestion de la ville par Schiller. Elle mène les efforts visant à 
+								relancer les cultures et l’élevage et, de manière plus générale.</p> 
+								<img src="Images/Saloumdra.png" class="image alignL" alt="Saloumdra">
+							</div>
+							<div class="modal-footer">
+							  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					<img src="Images/Saloumdra.png" class="image alignL" alt="Saloumdra">
+					<div class="Competences">
+						<h3>Compétences :</h3>
+						<p>
+							Charisme,Commérage +10%</br>
+							Connaissances académiques (magie) +10%</br>
+							Connaissances académiques (théologie)</br>
+							Emprise sur les animaux +10%</br>
+							Focalisation +10%</br>
+							Fouille</br>
+							Langage mystique(magick)</br>
+							Lire/écrire</br>
+							Perception</br>
+							Sens de la magie Soins</br>
+							Soins des animaux</br>
+						</p>
+						<h3>Talents :</h3>
+						<p>
+							Harmonie aethyrique,Intelligent</br>
+							Magie commune (occulte,vulgaire)</br>
+							Magie vulgaire</br>
+							Sain d’esprit</br>
+							Science de la magie (bêtes),</br>
+							Vision nocturne</br>
+						</p>
+					</div>
+					<div class="tableauStats">
+						<div class="tableborder">																												
+							<table class="table table-borderless text-center">
+								<thead>
+									<tr>
+										<th class="odd" scope="col"></th>
+										<th scope="col">
+												<!-- Button trigger modal -->
+											<button type="button" class="button" data-bs-toggle="modal" data-bs-target="#CCModal" title="Capacité de Combat">
+												CC
+											</button>
+												<!-- Modal -->
+											<div class="modal fade" id="CCModal" tabindex="-1" aria-labelledby="CCModalLabel" aria-hidden="true">
+												<div class="modal-dialog">
+													<div class="modal-content">
+															<div class="modal-header">
+																<h5 class="modal-title" id="CCModalLabel">Capacité de Combat</h5>
+																<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+															</div>
+														<div class="modal-body">
+															<p class="blackpolice">Capacité de Combat (CC): cette caractéristique représente l’aptitude de
+															votre personnage en combat rapproché, aussi bien armé qu’à mains nues.</p>
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</th>
+										<th scope="col">
+												<!-- Button trigger modal -->
+											<button type="button" class="button" data-bs-toggle="modal" data-bs-target="#CTModal" title="Capacité de Tir">
+												CT
+											</button>
+										
+												<!-- Modal -->
+											<div class="modal fade" id="CTModal" tabindex="-1" aria-labelledby="CTModalLabel" aria-hidden="true">
+												<div class="modal-dialog">
+													<div class="modal-content">
+															<div class="modal-header">
+																<h5 class="modal-title" id="CTModalLabel">Capacité de Tir</h5>
+																<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+															</div>
+														<div class="modal-body">
+															<p class="blackpolice">Capacité de Tir (CT) : cette caractéristique représente l’aptitude de
+															votre personnage à se servir d’armes à projectiles, comme les arcs, les
+															arbalètes et les pistolets.</p>
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</th>
+										<th scope="col">
+												<!-- Button trigger modal -->
+											<button type="button" class="button" data-bs-toggle="modal" data-bs-target="#FModal" title="Force">
+												F
+											</button>
+										
+												<!-- Modal -->
+											<div class="modal fade" id="FModal" tabindex="-1" aria-labelledby="FModalLabel" aria-hidden="true">
+												<div class="modal-dialog">
+													<div class="modal-content">
+															<div class="modal-header">
+																<h5 class="modal-title" id="FModalLabel">Force</h5>
+																<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+															</div>
+														<div class="modal-body">
+															<p class="blackpolice">Force (F) : cette caractéristique représente la puissance musculaire
+															brute de votre personnage.</p>
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</th>
+										<th scope="col">
+												<!-- Button trigger modal -->
+											<button type="button" class="button" data-bs-toggle="modal" data-bs-target="#EModal" title="Endurance">
+												E
+											</button>
+										
+												<!-- Modal -->
+											<div class="modal fade" id="EModal" tabindex="-1" aria-labelledby="EModalLabel" aria-hidden="true">
+												<div class="modal-dialog">
+													<div class="modal-content">
+															<div class="modal-header">
+																<h5 class="modal-title" id="EModalLabel">Endurance</h5>
+																<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+															</div>
+														<div class="modal-body">
+															<p class="blackpolice">Endurance (E) : cette caractéristique représente la capacité de votre
+															personnage à supporter les blessures, la maladie et le poison.</p>
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</th>
+										<th scope="col">
+												<!-- Button trigger modal -->
+											<button type="button" class="button" data-bs-toggle="modal" data-bs-target="#AGModal" title="Agilité">
+												AG
+											</button>
+										
+												<!-- Modal -->
+											<div class="modal fade" id="AGModal" tabindex="-1" aria-labelledby="AGModalLabel" aria-hidden="true">
+												<div class="modal-dialog">
+													<div class="modal-content">
+															<div class="modal-header">
+																<h5 class="modal-title" id="AGModalLabel">Agilité</h5>
+																<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+															</div>
+														<div class="modal-body">
+															<p class="blackpolice">Agilité (Ag) : cette caractéristique représente la vélocité physique de
+															votre personnage,son adresse manuelle et sa vitesse de réaction.</p>
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</th>
+										<th scope="col">
+												<!-- Button trigger modal -->
+											<button type="button" class="button" data-bs-toggle="modal" data-bs-target="#INTModal" title="Intelligence">
+												Int
+											</button>
+										
+												<!-- Modal -->
+											<div class="modal fade" id="INTModal" tabindex="-1" aria-labelledby="INTModalLabel" aria-hidden="true">
+												<div class="modal-dialog">
+													<div class="modal-content">
+															<div class="modal-header">
+																<h5 class="modal-title" id="INTModalLabel">Intelligence</h5>
+																<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+															</div>
+														<div class="modal-body">
+															<p class="blackpolice">Intelligence (Int) : cette caractéristique représente l’intellect de votre
+															personnage,sa perspicacité et sa capacité de raisonnement.</p>
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</th>
+										<th scope="col">
+												<!-- Button trigger modal -->
+											<button type="button" class="button" data-bs-toggle="modal" data-bs-target="#FMModal" title="Force Mentale">
+												FM
+											</button>
+										
+												<!-- Modal -->
+											<div class="modal fade" id="FMModal" tabindex="-1" aria-labelledby="FMModalLabel" aria-hidden="true">
+												<div class="modal-dialog">
+													<div class="modal-content">
+															<div class="modal-header">
+																<h5 class="modal-title" id="FMModalLabel">Force Mentale</h5>
+																<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+															</div>
+														<div class="modal-body">
+															<p class="blackpolice">Force Mentale (FM) : cette caractéristique représente la résistance
+															mentale de votre personnage et sa persévérance.</p>
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</th>
+										<th scope="col">
+												<!-- Button trigger modal -->
+											<button type="button" class="button" data-bs-toggle="modal" data-bs-target="#SOCModal" title="Sociabilité">
+												Soc
+											</button>
+										
+												<!-- Modal -->
+											<div class="modal fade" id="SOCModal" tabindex="-1" aria-labelledby="SOCModalLabel" aria-hidden="true">
+												<div class="modal-dialog">
+													<div class="modal-content">
+															<div class="modal-header">
+																<h5 class="modal-title" id="SOCModalLabel">Sociabilité</h5>
+																<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+															</div>
+														<div class="modal-body">
+															<p class="blackpolice">Sociabilité (Soc) : cette caractéristique représente le charisme de
+															votre personnage et sa capacité à interagir socialement.</p>
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th scope="row"></th>
+										<td><button class="base" title="Base">28%</button></td>
+										<td><button class="base" title="Base">30%</button></td>
+										<td><button class="base" title="Base">30%</button></td>
+										<td><button class="base" title="Base">31%</button></td>
+										<td><button class="base" title="Base">35%</button></td>
+										<td><button class="base" title="Base">56%</button></td>
+										<td><button class="base" title="Base">53%</button></td>
+										<td><button class="base" title="Base">45%</button></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="tableauStats">
+						<div class="tableborder">
+							<table class="table table-borderless text-center">
+								<thead>
+									<tr>
+										<th scope="col"></th>
+										<th class="odd" scope="col">
+											<!-- Button trigger modal -->
+											<button type="button" class="button" data-bs-toggle="modal" data-bs-target="#AModal" title="Attaques">
+												A
+											</button>
+										
+												<!-- Modal -->
+											<div class="modal fade" id="AModal" tabindex="-1" aria-labelledby="AModalLabel" aria-hidden="true">
+												<div class="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<h5 class="modal-title" id="AModalLabel">Attaques</h5>
+															<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+														</div>
+														<div class="modal-body">
+															<p class="blackpolice">Attaques (A) : cette caractéristique représente la vitesse des attaques
+															de votre personnage. Le nombre indique le maximum d’attaques que le
+															personnage peut effectuer en l’espace de 10 secondes.</p>
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</th>
+										<th scope="col">
+											<!-- Button trigger modal -->
+											<button type="button" class="button" data-bs-toggle="modal" data-bs-target="#BModal" title="Points de Blessures">
+												B
+											</button>
+										
+												<!-- Modal -->
+											<div class="modal fade" id="BModal" tabindex="-1" aria-labelledby="BModalLabel" aria-hidden="true">
+												<div class="modal-dialog">
+													<div class="modal-content">
+															<div class="modal-header">
+																<h5 class="modal-title" id="BModalLabel">Points de Blessures</h5>
+																<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+															</div>
+														<div class="modal-body">
+															<p class="blackpolice">Points de Blessures (B) : cette caractéristique représente la vitalité
+															globale de votre personnage. Elle indique la quantité de dégâts qu’il
+															peut subir avant de se retrouver dans un état critique.</p>
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</th>
+										<th scope="col">
+											<!-- Button trigger modal -->
+											<button type="button" class="button" data-bs-toggle="modal" data-bs-target="#BFModal" title="Bonus de Force">
+												BF
+											</button>
+										
+												<!-- Modal -->
+											<div class="modal fade" id="BFModal" tabindex="-1" aria-labelledby="BFModalLabel" aria-hidden="true">
+												<div class="modal-dialog">
+													<div class="modal-content">
+															<div class="modal-header">
+																<h5 class="modal-title" id="BFModalLabel">Bonus de Force</h5>
+																<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+															</div>
+														<div class="modal-body">
+															<p class="blackpolice">Bonus de Force (BF) : cette caractéristique,dérivée de la Force,déter-
+															mine les dégâts infligés au combat.</p>
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</th>
+										<th scope="col">
+											<!-- Button trigger modal -->
+											<button type="button" class="button" data-bs-toggle="modal" data-bs-target="#BEModal" title="Bonus d’Endurance">
+												BE
+											</button>
+										
+												<!-- Modal -->
+											<div class="modal fade" id="BEModal" tabindex="-1" aria-labelledby="BEModalLabel" aria-hidden="true">
+												<div class="modal-dialog">
+													<div class="modal-content">
+															<div class="modal-header">
+																<h5 class="modal-title" id="BEModalLabel">Bonus d’Endurance</h5>
+																<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+															</div>
+														<div class="modal-body">
+															<p class="blackpolice">Bonus d’Endurance (BE) : cette caractéristique, dérivée de
+															l’Endurance, détermine la résistance aux dégâts.</p>
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</th>
+										<th scope="col">
+											<!-- Button trigger modal -->
+											<button type="button" class="button" data-bs-toggle="modal" data-bs-target="#MModal" title="Mouvement">
+												M
+											</button>
+										
+												<!-- Modal -->
+											<div class="modal fade" id="MModal" tabindex="-1" aria-labelledby="MModalLabel" aria-hidden="true">
+												<div class="modal-dialog">
+													<div class="modal-content">
+															<div class="modal-header">
+																<h5 class="modal-title" id="MModalLabel">Mouvement</h5>
+																<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+															</div>
+														<div class="modal-body">
+															<p class="blackpolice">Mouvement (M) : cette caractéristique représente la vitesse de dépla-
+															cement au sol de base de votre personnage. Pour tout ce qui concerne
+			
+															les vitesses de déplacement en combat et hors combat, veuillez
+															vous reporter au Chapitre 6: Combat, dégâts et mouvements.</p>
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</th>
+										<th scope="col"><!-- Button trigger modal -->
+											<button type="button" class="button" data-bs-toggle="modal" data-bs-target="#MAGModal" title="Magie">
+												Mag
+											</button>
+										
+												<!-- Modal -->
+											<div class="modal fade" id="MAGModal" tabindex="-1" aria-labelledby="MAGModalLabel" aria-hidden="true">
+												<div class="modal-dialog">
+													<div class="modal-content">
+															<div class="modal-header">
+																<h5 class="modal-title" id="MAGModalLabel">Magie</h5>
+																<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+															</div>
+														<div class="modal-body">
+															<p class="blackpolice">Magie (Mag) : cette caractéristique représente l’aptitude magique de
+															votre personnage.</p>
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</th>
+										<th scope="col">
+											<!-- Button trigger modal -->
+											<button type="button" class="button" data-bs-toggle="modal" data-bs-target="#PFModal" title="Points de Folie">
+												PF
+											</button>
+										
+												<!-- Modal -->
+											<div class="modal fade" id="PFModal" tabindex="-1" aria-labelledby="PFModalLabel" aria-hidden="true">
+												<div class="modal-dialog">
+													<div class="modal-content">
+															<div class="modal-header">
+																<h5 class="modal-title" id="PFModalLabel">Points de Folie</h5>
+																<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+															</div>
+														<div class="modal-body">
+															<p class="blackpolice">Points de Folie (PF) : cette caractéristique représente le statut de la
+															santé mentale de votre personnage. Les PJ débutent avec 0 point de
+			
+															Folie, mais ils peuvent en acquérir en cours de partie à la suite d’expé-
+															riences traumatisantes ou de souffrances particulièrement insupporta-
+															bles.Votre MJ vous en dira davantage sur cet aspect du jeu.</p>
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</th>
+										<th scope="col">
+											<!-- Button trigger modal -->
+											<button type="button" class="button" data-bs-toggle="modal" data-bs-target="#PDModal" title="Points de Destin">
+												PD
+											</button>
+										
+												<!-- Modal -->
+											<div class="modal fade" id="PDModal" tabindex="-1" aria-labelledby="PDModalLabel" aria-hidden="true">
+												<div class="modal-dialog">
+													<div class="modal-content">
+															<div class="modal-header">
+																<h5 class="modal-title" id="PDModalLabel">Points de Destin</h5>
+																<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+															</div>
+														<div class="modal-body">
+															<p class="blackpolice">Points de Destin (PD) : cette caractéristique représente la chance et,
+															dans une certaine mesure, la destinée de votre personnage. Les points
+															de Destin peuvent servir à éviter une mort certaine.Votre MJ vous en
+															dira davantage sur cet aspect du jeu.</p>
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</th>
+									</tr>
+								</thead>
+							<tbody>
+								<tr>
+									<th scope="row"></th>
+									<td><button class="base" title="Base">1</button></td>
+									<td><button class="base" title="Base">13</button></td>
+									<td><button class="base" title="Base">3</button></td>
+									<td><button class="base" title="Base">3</button></td>
+									<td><button class="base" title="Base">4</button></td>
+									<td><button class="base" title="Base">2</button></td>
+									<td><button class="base" title="Base">5</button></td>
+									<td><button class="base" title="Base">0</button></td>
+								</tr>
+							</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="footercenter">
+				<img src="Images/footer3.png" class="footer" alt="Horizon Pixel">
+				<div class="container">
+					<div class="footerposi row align-items-start">
+						<button class="col btn btn-link" onclick="window.location.href = 'https://www.facebook.com/';"><img src="Images/icon f.svg" class="icon"  alt="Button facebook"></button>
+						<button class="col btn btn-link" onclick="window.location.href = 'https://www.instagram.com/';"><img src="Images/icon i.svg" class="icon"  alt="Button instagram"></button>
+						<button class="col btn btn-link" onclick="window.location.href = 'https://twitter.com/';"><img src="Images/icon t.svg" class="icon" alt="Button twitter"></button>
+						<button class="col btn btn-link" onclick="window.location.href = 'https://www.youtube.com/';"><img src="Images/icon y.svg" class="icon" alt="Button youtube"></button>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
+
+
+

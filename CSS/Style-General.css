@@ -1,0 +1,144 @@
+body{																				/* <---- Background (Images d'arrière-plan) */
+	background-image: url("../Images/background.jpg");
+}
+
+.logo{																				/* <---- Logo position (Position du logo) */
+	position: relative;
+	margin-top: 5px;
+	width: 300px;
+}
+
+#logocenter{
+	margin-top: 5px;
+	width: 300px;
+}
+
+.menu{																				/* <---- Menu icon positioning (Positionnement icône menu) */
+	float: right;
+	top: 150px;
+	right: 89px;
+}
+
+p{																					/* <---- Paragraph font size (Taille de la police paragraphe) */
+	font-size: 1rem;
+}
+
+p,h2,h3{																			/* <---- Margin for titre2&3 and paragraphs (Marge des titres et paragraphes) */
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+p,h1{																				/* <---- Title1 and paragraph color (Couleur du titre1 et paragraphes) */
+	color: rgb(255, 255, 255);
+}
+
+h1{																					/* <---- Positioning of the title1 (Positionnement du titre1) */
+	position: relative;
+	text-align: center;
+}
+
+h3{																					/* <---- Title3 color (Couleur de titre3) */
+	color: #F9FF9F;
+}
+
+h2{																					/* <---- Title2 color and Padding (Couleur de titre1 et espacement) */
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #FCACAC;
+}
+
+h2, h3 {																			/* <---- Title2&3 Underline (Souligner Titre2&3) */
+	text-decoration: underline;
+	}
+
+h1,h2,h3,p,.logo,.image,.iconmenu,.icon{											/* <---- Shadings (Ombrages) */
+	filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+}
+
+#cadre,.fondbanniere,.logo,#logocenter,.banniere,.footercenter{						/* <---- Horizontal centering of elements (Centrage horizontal des éléments) */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#cadre,.banniere,.image{															/* <---- White frame (Cadre blanc) */                              
+	border: solid 0.5em;
+	border-color: rgb(255, 255, 255);
+}
+
+
+.fondbanniere,.footer,.menu{														/* <---- Absolute position */ 
+	position:absolute;
+}
+
+#cadre{
+	margin-top: 30px;
+	width: 950px;
+	border-radius: 10px;
+	background-color: #585858ad;
+}
+
+.article{																			/* <---- height article (hauteur de l'article)*/ 
+	height: 300px;
+}
+
+.fondbanniere{																		/* <---- Banner size (Taille de la bannière)*/ 
+	max-width : 965px;
+}
+
+
+.banniere{
+	height : 460px;
+	border-radius: 5px;
+	max-width : 980px;
+}
+
+.image{																				/* <---- Location and form of images (Emplacement et forme des images)*/ 
+	width: 300px;
+	height : 250px;
+	border-radius: 120px;
+	margin: 20px;
+	margin-right: 30px;
+	margin-left: 30px;
+  }
+
+.footer{																			/* <---- Footer size (Taille du pied de page)*/ 
+	max-width : 100%;
+}
+
+.footercenter{
+	max-width : 1387px;
+}
+
+.footerposi{
+	position: relative;
+	padding-top: 213px;
+}
+
+
+.icon{																				/* <---- Positioning social icon (Positionnement icône social)*/ 
+	width: 120px;
+}
+
+
+.alignR{																			/* <---- Item position (Position article)*/ 
+	float: right;
+}
+
+.alignL{
+	float: left;
+}
+
+.articleL{
+	text-align: end;
+}
+
+.previous{																		/* <---- Previous arrow positioning (Positionnement flèche précédent) */
+	position: absolute;
+	float: left;
+	top: 150px;
+	left: 89px;
+}
+
+.iconp{
+	width: 80px;
+}
