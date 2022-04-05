@@ -12,13 +12,133 @@
 	</head>
 	<body>
 		<header>
-
+			<div class="banniere">
+				<img src="Images/fondbanniere.png" class="fondbanniere" alt="Paysage Pixel">
+				<div class="previous dropdown">
+					<button class="btn btn-link" type="button" onclick = "history.back()">
+						<img src="Images/iconp.svg" class="iconp" alt="Bouton précédent">
+					</button>
+				</div> 
+				<div class=" menu dropdown">
+					<button class="btn btn-link" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2 iconmenu" 
+							width="60" 
+							height="60" 
+							viewBox="0 0 24 24" 
+							stroke-width="3" 
+							stroke="#ffffff" 
+							fill="none" 
+							stroke-linecap="round" 
+							stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+							<line x1="4" y1="6" x2="20" y2="6" />
+							<line x1="4" y1="12" x2="20" y2="12" />
+							<line x1="4" y1="18" x2="20" y2="18" />
+						  </svg>
+					</button>
+					<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+					  <li><a class="dropdown-item" href="index.html">Accueil</a></li>
+					  <li><a class="dropdown-item active" href="Evenement.html">Evenement</a></li>
+					  <li><a class="dropdown-item" href="Fiches Personnages.html">Fiche Personnage</a></li>
+					  <li><a class="dropdown-item" href="Nous contacter.html">Nous contacter</a></li>
+					</ul>
+				</div>
+				<div id="logocenter">
+					<a href="index.html"><button><img src="Images/logo.png" class="logo" alt="Logo"></button></a>
+				</div>
+				<h1>Association Française<br>de Jeux de Rôles</h1>
+			</div>
 		</header>
 		<main>
+			<div id="cadre">
+				<div class="article">
+						<img src="Images/roliste.jpg" class="image alignR" alt="Roliste Group">
+						<h2 class="articleR">Evenement Mensuel</h2>
+						<h3 class="articleR">- Tous les 1er samedi du mois</h3>
+						<p>
+							Tous les 1er samedi du mois nous organisons une soirée
+							jeux de rôles. Nous vous laissons à disposition nos locaux afin 
+							que vous puissiez venir avec votre petit groupe de Rôliste, pour 
+							jouer confortablement, échanger avec d'autres passionnés, et
+							surtout vivre et partager de merveilleuses aventures ensemble.
 
+							Si votre groupe ne possède pas de MG (maître du jeu) n'hésitez 
+							pas à <a href="Nous contacter.html">nous contacter</a> pour savoir si un de nos bénévoles et 
+							disponible pour masteriser une partie, quel soin pour les néophytes
+							où les expérimenter.
+						</p>
+				</div>
+				<div class="article">
+					<div id="carouselExampleCaptions" class="alignL image1 carousel slide " data-bs-ride="carousel">
+						<div class="carousel-inner">
+						  <div class="carousel-item active">
+							<img src="Images/Crossfade1.jpg" class="dimension d-block" alt="Les Poney Fringant">
+							<div class="carousel-caption d-none d-md-block">
+							  <h5>Anniversaire 2021</h5>
+							  <p class="textcarousel">La joyeuse troupe des Poney Fringant.</p>
+							</div>
+						  </div>
+						  <div class="carousel-item">
+							<img src="Images/Crossfade2.jpg" class="dimension d-block" alt="La garnison du Nord">
+							<div class="carousel-caption d-none d-md-block">
+							  <h5>Anniversaire 2021</h5>
+							  <p>La garnison du Nord.</p>
+							</div>
+						  </div>
+						  <div class="carousel-item">
+							<img src="Images/Crossfade3.jpg" class="dimension d-block" alt="La capture du Grand philanthrope">
+							<div class="carousel-caption d-none d-md-block">
+							  <h5>Anniversaire 2021</h5>
+							  <p class="textcarousel">La capture du Grand philanthrope.</p>
+							</div>
+						  </div>
+						  <div class="carousel-item">
+							<img src="Images/Crossfade4.jpg" class="dimension d-block" alt="La bataille de la crique">
+							<div class="carousel-caption d-none d-md-block">
+							  <h5>Anniversaire 2020</h5>
+							  <p class="textcarousel">La bataille de la crique.</p>
+							</div>
+						  </div>
+						  <div class="carousel-item">
+							<img src="Images/Crossfade5.jpg" class="dimension d-block" alt="Les hommes bêtes de la forêt">
+							<div class="carousel-caption d-none d-md-block">
+							  <h5>Anniversaire 2020</h5>
+							  <p>Les hommes bêtes de la forêt.</p>
+							</div>
+						  </div>
+						</div>
+					</div>
+					<h2 class="articleL">Evenement Annuel</h2>
+					<h3 class="articleL">- Le 12 juin 2022</h3>
+					<p class="articleL">
+						Le 12 juin est une date fort en symbolique, c'est la date 
+						d'anniversaire de notre association et pour célébrer ce grand jour,
+						chaque année nous organisons un jeu de rôle grandeur nature!
+						Venez participer à cette grande aventure déguisé ou non ?! qui 
+						plaira autant au petit qu' au grand. Généralement si le temps nous
+						le permet, nous prévoyons un énorme pique-nique médiéval
+						qui sera remplir les penses des plus gourmands.
+
+						La participation à cet événement est gratuite mais nécessite 
+						néanmoins une inscription. Pour cela rien de plus simple 
+						<a href="Nous contacter.html">contactez-nous !</a>
+					</p>
+				</div>
+			</div>
 		</main>
 		<footer>
-			
+			<div class="footercenter">
+				<img src="Images/footer3.png" class="footer" alt="Horizon Pixel">
+				<div class="container">
+					<div class="footerposi row align-items-start">
+						<button class="col btn btn-link" onclick="window.location.href = 'https://www.facebook.com/';"><img src="Images/icon f.svg" class="icon"  alt="Button facebook"></button>
+						<button class="col btn btn-link" onclick="window.location.href = 'https://www.instagram.com/';"><img src="Images/icon i.svg" class="icon"  alt="Button instagram"></button>
+						<button class="col btn btn-link" onclick="window.location.href = 'https://twitter.com/';"><img src="Images/icon t.svg" class="icon" alt="Button twitter"></button>
+						<button class="col btn btn-link" onclick="window.location.href = 'https://www.youtube.com/';"><img src="Images/icon y.svg" class="icon" alt="Button youtube"></button>
+					</div>
+				</div>
+				
+			</div>
 		</footer>
 	</body>
 </html>
