@@ -1,0 +1,45 @@
+@media screen and (min-width: 1074px) {
+	#cadre{
+		width: 99%;
+	}
+
+	.article{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	p{																					/* <---- Paragraph font size (Taille de la police paragraphe) */
+		font-size: 1.2rem;
+	}
+}
+
+
+@media screen and (min-width: 1450px) {
+	#cadre{
+		width: 1500px;
+	}
+	.article{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.image{
+		width: 450px;
+		height : 500px;
+	  }
+
+	  .article{
+		height: 550px;
+	}
+
+	p{																					/* <---- Paragraph font size (Taille de la police paragraphe) */
+		font-size: 1.4rem;
+	}
+}
+
+@media screen and (min-width: 1650px) {
+	#cadre{
+		width: 1500px;
+	
+  }
+}
