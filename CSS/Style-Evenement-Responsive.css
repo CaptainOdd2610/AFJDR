@@ -1,0 +1,45 @@
+@media screen and (min-width: 981px) {
+	#cadre{
+		width: 99%;
+	}
+
+	.article{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	p{
+		font-size: 1.2rem;
+	}
+}
+
+
+@media screen and (min-width: 1450px) {
+	#cadre{
+		width: 1500px;
+	}
+	.article{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.image, .image1, .dimension{
+		width: 450px;
+		height : 400px;
+	  }
+
+	  .article{
+		height: 500px;
+	}
+
+	p{
+		font-size: 1.4rem;
+	}
+}
+
+@media screen and (min-width: 1650px) {
+	#cadre{
+		width: 1500px;
+	
+  }
+}
