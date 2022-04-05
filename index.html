@@ -11,44 +11,45 @@
 	</head>
 	<body>
 		<header>
-			<div>		
-				<img src="Images/fondbanniere.png" alt="Paysage Pixel">
-				<div>
-					<button class="btn btn-link" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">  						<!-- Button Menu Burger -->
-						<svg xmlns="http://www.w3.org/2000/svg" class="icon-tabler icon-tabler-menu-2" 
+			<div class="banniere">	
+				<img src="Images/fondbanniere.png" class="fondbanniere" alt="Paysage Pixel">
+				<div class=" menu dropdown">
+					<button class="btn btn-link" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2 iconmenu" 
 							width="60" 
 							height="60" 
 							viewBox="0 0 24 24" 
 							stroke-width="3" 
 							stroke="#ffffff" 
 							fill="none" 
-							stroke-linecap="round"
-							stroke-linejoin="round">																									
+							stroke-linecap="round" 
+							stroke-linejoin="round">
 							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-							<line x1="4" y1="6" x2="20" y2="6"/>
-							<line x1="4" y1="12" x2="20" y2="12"/>
-							<line x1="4" y1="18" x2="20" y2="18"/>
+							<line x1="4" y1="6" x2="20" y2="6" />
+							<line x1="4" y1="12" x2="20" y2="12" />
+							<line x1="4" y1="18" x2="20" y2="18" />
 						  </svg>
-						</button>
-					<ul>
-					  <li><a>Accueil</a></li>
-					  <li><a>Evenement</a></li>
-					  <li><a>Fiche Personnage</a></li>
-					  <li><a>Nous contacter</a></li>
+					</button>
+					<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+					  <li><a class="dropdown-item active" href="index.html">Accueil</a></li>
+					  <li><a class="dropdown-item" href="Evenement.html">Evenement</a></li>
+					  <li><a class="dropdown-item" href="Fiches Personnages.html">Fiche Personnage</a></li>
+					  <li><a class="dropdown-item" href="Nous contacter.html">Nous contacter</a></li>
 					</ul>
+				  </div>
+				<div id="logocenter">
+					<a href="index.html"><button><img src="Images/logo.png" class="logo" alt="Logo"></button></a>
 				</div>
-				<div>
-					<a href="index.html"><button><img src="Images/logo.png" alt="Logo"></button></a>															<!-- Logo -->
-				</div>
-				<h1>Association Française<br>de Jeux de Rôles</h1>																								<!-- Title H1 -->
+				<h1>Association Française<br>de Jeux de Rôles</h1>
 			</div>
 		</header>
 		<main>
-			<div>
-				<div>
-						<img src="Images/image2.png" alt="Fiche Personnages">
+			<div id="cadre">
+				<div class="article">
+						<img src="Images/image2.png" class="image alignR" alt="Fiche Personnages">
 						<h2>Qu'est-ce que l'association<br>
-						française de jeux drôles</h2>
+						française de jeux drôles
+						</h2>
 						<p>
 							L'Association Française de Jeu de Rôle (AFJDR)</br>
 							est une association loi 1901. Elle a été fondée</br>
@@ -58,11 +59,11 @@
 							soient représentés au niveau national.</br>
 						</p>
 				</div>
-				<div>
-					<img src="Images/image3.png" alt="Illustrator Fantasy">
-					<h2>Les objectifs de l'AFJDR</h2>
-					<h3>-Développer et promouvoir le jeu de rôle:</h3>
-					<p>
+				<div class="article">
+					<img src="Images/image3.png" class="image alignL" alt="Illustrator Fantasy">
+					<h2 class="articleL">Les objectifs de l'AFJDR</h2>
+					<h3 class="articleL">-Développer et promouvoir le jeu de rôle:</h3>
+					<p class="articleL">
 						À l’échelon national et francophone, en virtuel ou</br>
 						autour d’une table, par l’organisation de rencontres</br>
 						et de démonstrations à l’attention du grand public,</br>
@@ -72,8 +73,8 @@
 						Expo, etc.</br>
 					</p>
 				</div>
-				<div>
-					<img src="Images/image4.png" alt="Dice">
+				<div class="article">
+					<img src="Images/image4.png" class="image alignR" alt="Dice">
 					<h3>-Informer et sensibiliser:</h3>
 					<p>
 						Sur tous les aspects du jeu de rôle par la diffusion de</br>
@@ -85,11 +86,11 @@
 						professionnalisation.</br>
 					</p>
 				</div>
-				<div>
-					<img src="Images/image1.png" alt="BD Comics">
-					<h3>-Accroître l’échange et accompagner<br>
+				<div class="article">
+					<img src="Images/image1.png" class="image alignL" alt="BD Comics">
+					<h3 class="articleL">-Accroître l’échange et accompagner<br>
 						les acteurs du monde du JdR:</h3>
-					<p>
+					<p class="articleL">
 						En renforçant le tissu associatif par la création d’un</br> 
 						réseau national et local d'entraide, partageant des</br>
 						conseils juridiques, comptables, logistiques,</br>
@@ -102,16 +103,17 @@
 			</div>
 		</main>
 		<footer>
-			<div>
-				<img src="Images/footer3.png" alt="Horizon Pixel">
-				<div>
-					<div>
-						<button onclick="window.location.href = 'https://www.facebook.com/';"><img src="Images/icon f.svg"  alt="Button facebook"></button>
-						<button onclick="window.location.href = 'https://www.instagram.com/';"><img src="Images/icon i.svg"  alt="Button instagram"></button>
-						<button onclick="window.location.href = 'https://twitter.com/';"><img src="Images/icon t.svg" alt="Button twitter"></button>
-						<button onclick="window.location.href = 'https://www.youtube.com/';"><img src="Images/icon y.svg" alt="Button youtube"></button>
+			<div class="footercenter">
+				<img src="Images/footer3.png" class="footer" alt="Horizon Pixel">
+				<div class="container">
+					<div class="footerposi row align-items-start">
+						<button class="col btn btn-link" onclick="window.location.href = 'https://www.facebook.com/';"><img src="Images/icon f.svg" class="icon"  alt=""></button>
+						<button class="col btn btn-link" onclick="window.location.href = 'https://www.instagram.com/';"><img src="Images/icon i.svg" class="icon"  alt=""></button>
+						<button class="col btn btn-link" onclick="window.location.href = 'https://twitter.com/';"><img src="Images/icon t.svg" class="icon" alt=""></button>
+						<button class="col btn btn-link" onclick="window.location.href = 'https://www.youtube.com/';"><img src="Images/icon y.svg" class="icon" alt=""></button>
 					</div>
 				</div>
+				
 			</div>
 		</footer>
 	</body>
