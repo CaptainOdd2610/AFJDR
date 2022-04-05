@@ -1,0 +1,29 @@
+
+h2>a:hover {																	/* <---- Link color (Couleur des liens) */
+	color: rgb(255, 255, 255);
+  }
+
+h2>a {
+	color: #FCACAC;
+}
+
+.image,.iconp{																	/* <---- Shadings (Ombrage) */
+	filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+}
+
+.image{ 																		/* <---- Image settings (Paramètres images) */
+	width: 350px;
+	height : 400px;
+	border-radius: 120px;
+	border: solid 0.5em;
+	border-color: rgb(255, 255, 255);
+	margin: 20px;
+	margin-right: 30px;
+	margin-left: 30px;
+  }
+
+.article{																		/* <---- acticle height (hauteur de l'article) */
+	height: 441px;
+}
+
+
