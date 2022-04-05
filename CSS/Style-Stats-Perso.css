@@ -1,0 +1,86 @@
+h2:hover {																		/* <---- height article (hauteur de l'article)*/ 
+	color: rgb(255, 255, 255);
+  }
+
+h2{
+	color: #FCACAC;
+}
+
+.iconp,.image,.button,.base{													/* <---- Shadings (Ombrages) */
+	filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+}
+
+.image{ 																		/* <---- Image settings (Paramètres images) */
+	width: 420px;
+	height : 500px;
+	border-radius: 120px;
+	border: solid 0.5em;
+	border-color: rgb(255, 255, 255);
+	margin-top: 50px;
+	margin-left: 30px;
+  }
+
+
+.article{																		/* <---- height article (hauteur de l'article)*/ 
+	height: 882px;
+
+}
+
+.Competences{																	/* <---- Skill slot (Emplacement compétence)*/ 
+	margin-left: 500px;
+}
+
+.tableauStats{																	/* <---- Board location (Emplacement tableau)*/ 
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.modal-body,.odd,.blackpolice{																/* <---- Text color modal (Couleur de texte modale) */
+	color: black;
+	filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.185));
+}
+
+.button{																		/* <---- State Button (Bouton des States) */
+	font-size: 19px;
+	font-weight: bold;
+	width: 55px;
+	height: 55px;
+	color: #ffffff;
+	background-color: #58585800;
+	border-radius: 10px;
+}
+
+.base{																			/* <---- The stats (Les stats de bases) */
+	font-size: 15px;
+	font-weight: bold ;
+	width: 55px;
+	height: 55px;
+	color: #ffffff;
+	background-color: #585858;
+	border: #ffffff solid 3px;
+	border-radius: 10px;
+}
+
+.historia{																		/* <---- Link to story (Lien vers l'histoire) */ 
+	position: absolute;
+	width: 500px;
+	height: 40px;
+	top: 480px;
+}
+
+h2{																				/* <---- Margin h2 (Marge h2) */ 
+	padding-top: 10px;
+	padding-left: 75px;
+}
+
+.previous{																		/* <---- Previous arrow positioning (Positionnement flèche précédent) */
+	position: absolute;
+	float: left;
+	top: 150px;
+	left: 89px;
+}
+
+.iconp{
+	width: 80px;
+}
