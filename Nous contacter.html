@@ -12,13 +12,81 @@
 	</head>
 	<body>
 		<header>
-
+			<div class="banniere">
+				<img src="Images/fondbanniere.png" class="fondbanniere" alt="Paysage Pixel">
+				<div class="previous dropdown">
+					<button class="btn btn-link" type="button" onclick = "history.back()">
+						<img src="Images/iconp.svg" class="iconp" alt="Bouton précédent">
+					</button>
+				</div> 
+				<div class=" menu dropdown">
+					<button class="btn btn-link" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2 iconmenu" 
+							width="60" 
+							height="60" 
+							viewBox="0 0 24 24" 
+							stroke-width="3" 
+							stroke="#ffffff" 
+							fill="none" 
+							stroke-linecap="round" 
+							stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+							<line x1="4" y1="6" x2="20" y2="6" />
+							<line x1="4" y1="12" x2="20" y2="12" />
+							<line x1="4" y1="18" x2="20" y2="18" />
+						  </svg>
+					</button>
+					<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+					  <li><a class="dropdown-item" href="index.html">Accueil</a></li>
+					  <li><a class="dropdown-item" href="Evenement.html">Evenement</a></li>
+					  <li><a class="dropdown-item" href="Fiches Personnages.html">Fiche Personnage</a></li>
+					  <li><a class="dropdown-item active" href="Nous contacter.html">Nous contacter</a></li>
+					</ul>
+				</div>
+				<div id="logocenter">
+					<a href="index.html"><button><img src="Images/logo.png" class="logo" alt="Logo"></button></a>
+				</div>
+				<h1>Association Française<br>de Jeux de Rôles</h1>
+			</div>
 		</header>
 		<main>
-
+			<div id="cadre">
+				<div class="article">
+					<h2 style="font-size: 50px;">Nous Contacter !</h2>
+					<div class="cadre t">
+						<img src="Images/Icon tele.svg" class="icont" alt="Icon Telephone">
+						<p>04-75-xx-xx-xx</p>
+					</div>
+					<div class="cadre mail">
+							<img src="Images/Icon mail.svg" class="iconmail" alt="Icon Lettre">
+							<p>afjr@gmail.com</p>
+					</div>
+					<div class="cadre map">
+						<img src="Images/Icon map.svg" class="iconmap" alt="Icon Localisation">
+						<iframe class="carte" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2825.												
+						5036195352404!2d4.887603215753323!3d44.913092978066736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+						1!3m3!1m2!1s0x47f5581894a52361%3A0xdf50d85a9787076a!2s8%20Rue%20de%20l&#39;
+						Ancien%20V%C3%A9lodrome%2C%2026000%20Valence!5e0!3m2!1sfr!2sfr!4v1647429439439!5m2!1sfr!2sfr" 
+						width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+						</iframe>
+					</div>
+				</div>
+			</div>
 		</main>
 		<footer>
-			
+			<div class="footercenter">
+				<img src="Images/footer3.png" class="footer" alt="Horizon Pixel">
+				<div class="container">
+					<div class="footerposi row align-items-start">
+						<button class="col btn btn-link" onclick="window.location.href = 'https://www.facebook.com/';"><img src="Images/icon f.svg" class="icon"  alt="Button facebook"></button>
+						<button class="col btn btn-link" onclick="window.location.href = 'https://www.instagram.com/';"><img src="Images/icon i.svg" class="icon"  alt="Button instagram"></button>
+						<button class="col btn btn-link" onclick="window.location.href = 'https://twitter.com/';"><img src="Images/icon t.svg" class="icon" alt="Button twitter"></button>
+						<button class="col btn btn-link" onclick="window.location.href = 'https://www.youtube.com/';"><img src="Images/icon y.svg" class="icon" alt="Button youtube"></button>
+					</div>
+				</div>
+			</div>
 		</footer>
 	</body>
 </html>
+
+

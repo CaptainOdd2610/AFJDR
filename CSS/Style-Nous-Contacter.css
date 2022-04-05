@@ -1,0 +1,63 @@
+.article{																		/* <---- height article (hauteur de l'article)*/ 
+	height: 882px;
+}
+
+.icont , .iconmail, .iconmap,.carte,.iconp{										/* <---- Shadings (Ombrages) */
+	filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+}
+
+p,.carte{																		/* <---- White frame (Cadre blanc) */ 
+	border-color: rgb(255, 255, 255);
+}
+
+.icont , .iconmail, .iconmap{													/* <---- Location icon phone,mail,maps (Position icône téléphone,mail,maps) */ 
+	margin-top: 10px;
+	margin-left: 50px;
+	position: absolute;
+	width: 70px;
+	margin-right: 50px;
+}
+
+.icont{																			/* <---- Fit phone icon (Ajustement icône téléphone) */ 
+	top: 610px;
+}
+
+h2{																				/* <---- Margin h2 (Marge h2) */ 
+	margin: 20px;
+}
+
+p{																				/* <---- Paragraph Settings (Paramètres paragraphe) */ 
+	width: 35%;
+	font-size: 40px;
+	padding-left: 20px;
+	margin-left: 200px;
+	border: solid 10px;
+	border-radius: 10px;
+}
+
+.t , .mail , .carte{															/* <---- Margin top (Marge haut) */ 
+	margin-top: 50px;
+}
+
+.iconmap{																		/* <---- Icon map */
+	top: 910px;
+	width: 60px;
+}
+
+.carte{																			/* <---- Location Maps (Position Maps) */
+	margin-left: 200px;
+	border-radius: 10px;
+	border: solid 20px;
+}
+
+.previous{																		/* <---- Previous arrow positioning (Positionnement flèche précédent) */
+	position: absolute;
+	float: left;
+	top: 150px;
+	left: 89px;
+}
+
+.iconp{
+	width: 80px;
+}
+
